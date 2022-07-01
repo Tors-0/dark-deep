@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tutorialmod:compressed_deepslate"
+          "name": "darkdeep:compressed_deepslate"
         }
       ],
       "rolls": 1

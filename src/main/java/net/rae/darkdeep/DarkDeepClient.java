@@ -1,8 +1,8 @@
-package net.rae.tutorialmod;
+package net.rae.darkdeep;
 
 import net.fabricmc.api.ClientModInitializer;
 
-public class TutorialModClient implements ClientModInitializer {
+public class DarkDeepClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 

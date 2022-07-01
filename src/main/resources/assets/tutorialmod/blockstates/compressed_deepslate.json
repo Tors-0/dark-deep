@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "tutorialmod:block/compressed_deepslate" }
+    "": { "model": "darkdeep:block/compressed_deepslate" }
   }
 }

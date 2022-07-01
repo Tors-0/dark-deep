@@ -1,14 +1,14 @@
-package net.rae.tutorialmod;
+package net.rae.darkdeep;
 
 import net.fabricmc.api.ModInitializer;
-import net.rae.tutorialmod.block.ModBlocks;
-import net.rae.tutorialmod.item.ModItems;
+import net.rae.darkdeep.block.ModBlocks;
+import net.rae.darkdeep.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 // very important comment
-public class TutorialMod implements ModInitializer {
-	public static final String MOD_ID = "tutorialmod";
+public class DarkDeep implements ModInitializer {
+	public static final String MOD_ID = "darkdeep";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override

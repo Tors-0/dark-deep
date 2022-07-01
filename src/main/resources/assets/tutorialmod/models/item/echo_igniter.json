@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tutorialmod:item/echo_igniter"
+    "layer0": "darkdeep:item/echo_igniter"
   }
 }

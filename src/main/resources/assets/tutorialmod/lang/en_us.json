@@ -1,7 +1,7 @@
 {
-  "item.tutorialmod.echo_igniter": "Echo Igniter",
+  "item.darkdeep.echo_igniter": "Echo Igniter",
 
-  "block.tutorialmod.compressed_deepslate": "Compressed Deepslate",
+  "block.darkdeep.compressed_deepslate": "Compressed Deepslate",
 
-  "itemGroup.tutorialmod.echo_igniter": "Dark Deep"
+  "itemGroup.darkdeep.echo_igniter": "Dark Deep"
 }

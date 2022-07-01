@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "tutorialmod:block/compressed_deepslate"
+    "all": "darkdeep:block/compressed_deepslate"
   }
 }
