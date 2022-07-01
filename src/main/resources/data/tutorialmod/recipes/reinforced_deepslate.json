@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "@#@",
+    "#&#",
+    "$#$"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:compressed_deepslate"
+    },
+    "@": {
+      "item": "minecraft:bone_block"
+    },
+    "$": {
+      "item": "minecraft:iron_block"
+    },
+    "&": {
+      "item": "minecraft:sculk_catalyst"
+    }
+  },
+  "result": {
+    "item": "minecraft:reinforced_deepslate"
+  }
+}
