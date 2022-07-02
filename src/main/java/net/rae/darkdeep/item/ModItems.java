@@ -8,7 +8,7 @@ import net.rae.darkdeep.DarkDeep;
 
 public class ModItems {
 
-    public static final Item THE_CAVERN = registerItem("echo_igniter",
+    public static final Item ECHO_IGNITER = registerItem("echo_igniter",
             new Item(new FabricItemSettings().group(ModItemGroup.THE_CAVERN).maxCount(1)));
 
     private static Item registerItem(String name, Item item) {

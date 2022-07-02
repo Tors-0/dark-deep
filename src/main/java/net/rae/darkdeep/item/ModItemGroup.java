@@ -8,5 +8,5 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
     public static final ItemGroup THE_CAVERN = FabricItemGroupBuilder.build(
-            new Identifier(DarkDeep.MOD_ID, "the_cavern"), () -> new ItemStack(ModItems.THE_CAVERN));
+            new Identifier(DarkDeep.MOD_ID, "the_cavern"), () -> new ItemStack(ModItems.ECHO_IGNITER));
 }
