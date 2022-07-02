@@ -1,5 +1,6 @@
 package net.rae.darkdeep.world.dimension;
 
+import net.kyrptonaught.customportalapi.CustomPortalApiRegistry;
 import net.kyrptonaught.customportalapi.api.CustomPortalBuilder;
 import net.minecraft.block.Blocks;
 import net.minecraft.util.Identifier;
@@ -18,6 +19,7 @@ public class ModDimensions {
 
     public static void register() {
         DarkDeep.LOGGER.debug("Registering ModDimensions for " + DarkDeep.MOD_ID);
+
 
         CustomPortalBuilder.beginPortal()
                 .frameBlock(Blocks.REINFORCED_DEEPSLATE)
