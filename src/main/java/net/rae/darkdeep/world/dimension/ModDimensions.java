@@ -23,7 +23,7 @@ public class ModDimensions {
         CustomPortalBuilder.beginPortal()
                 .frameBlock(Blocks.REINFORCED_DEEPSLATE)
                 .destDimID(DDDIM_DIMENSION_KEY.getValue())
-                .tintColor(3, 64, 79)
+                .tintColor(17, 27, 33)
                 .lightWithItem(ModItems.THE_CAVERN)
                 .onlyLightInOverworld()
                 .forcedSize(20, 6)
