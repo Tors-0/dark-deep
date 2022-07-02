@@ -16,7 +16,6 @@ public class ModDimensions {
     public static final RegistryKey<DimensionType> DDDIM_TYPE_KEY = RegistryKey.of(Registry.DIMENSION_TYPE_KEY,
             DDDIM_DIMENSION_KEY.getValue());
 
-
     public static void register() {
         DarkDeep.LOGGER.debug("Registering ModDimensions for " + DarkDeep.MOD_ID);
 
