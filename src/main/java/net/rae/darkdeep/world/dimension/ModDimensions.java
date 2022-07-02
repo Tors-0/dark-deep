@@ -25,8 +25,7 @@ public class ModDimensions {
                 .frameBlock(Blocks.REINFORCED_DEEPSLATE)
                 .destDimID(DDDIM_DIMENSION_KEY.getValue())
                 .tintColor(17, 27, 33)
-                .lightWithItem(ModItems.THE_CAVERN)
-                .onlyLightInOverworld()
+                .lightWithItem(ModItems.ECHO_IGNITER)
                 .forcedSize(20, 6)
                 .registerPortal();
     }
