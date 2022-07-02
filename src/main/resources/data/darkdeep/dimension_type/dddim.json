@@ -10,7 +10,7 @@
   "coordinate_scale": 3,
   "ambient_light": 0,
   "logical_height": 384,
-  "effects": "minecraft:the_end",
+  "effects": "minecraft:overworld",
   "infiniburn": "#minecraft:infiniburn_overworld",
   "min_y": -64,
   "height": 384,

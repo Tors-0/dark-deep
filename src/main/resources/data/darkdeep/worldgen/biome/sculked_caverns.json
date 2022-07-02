@@ -1,0 +1,67 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "precipitation": "none",
+  "temperature_modifier": "none",
+  "effects": {
+    "sky_color": 1903694,
+    "fog_color": 1379406,
+    "water_color": 332073,
+    "water_fog_color": 329011,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:zombie",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:warden",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon",
+      {
+        "type": "minecraft:cave",
+        "config": {
+          "probability": 0.1,
+          "y": {
+            "absolute": 0
+          },
+          "yScale": 0,
+          "lava_level": {
+            "absolute": 0
+          },
+          "replaceable": "minecraft:stone",
+          "horizontal_radius_multiplier": 0,
+          "vertical_radius_multiplier": 0,
+          "floor_level": 0
+        }
+      },
+      "minecraft:nether_cave"
+    ]
+  },
+  "features": [
+    [
+      "minecraft:sculk_vein",
+      "minecraft:sculk_patch_ancient_city",
+      "minecraft:sculk_patch_deep_dark"
+    ]
+  ]
+}
