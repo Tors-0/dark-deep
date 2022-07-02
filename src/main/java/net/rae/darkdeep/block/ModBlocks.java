@@ -14,7 +14,7 @@ import net.rae.darkdeep.item.ModItemGroup;
 
 public class ModBlocks {
     public static final Block COMPRESSED_DEEPSLATE = registerBlock("compressed_deepslate",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(8f).requiresTool()), ModItemGroup.ECHO_IGNITER);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(8f).requiresTool()), ModItemGroup.THE_CAVERN);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {

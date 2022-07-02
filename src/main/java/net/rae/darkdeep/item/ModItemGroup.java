@@ -7,6 +7,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
-    public static final ItemGroup ECHO_IGNITER = FabricItemGroupBuilder.build(
-            new Identifier(DarkDeep.MOD_ID, "echo_igniter"), () -> new ItemStack(ModItems.ECHO_IGNITER));
+    public static final ItemGroup THE_CAVERN = FabricItemGroupBuilder.build(
+            new Identifier(DarkDeep.MOD_ID, "the_cavern"), () -> new ItemStack(ModItems.THE_CAVERN));
 }
