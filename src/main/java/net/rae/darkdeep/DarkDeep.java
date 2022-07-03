@@ -1,6 +1,7 @@
 package net.rae.darkdeep;
 
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.world.biome.Biome;
 import net.rae.darkdeep.block.ModBlocks;
 import net.rae.darkdeep.item.ModItems;
 import net.rae.darkdeep.world.dimension.ModDimensions;
@@ -12,6 +13,8 @@ public class DarkDeep implements ModInitializer {
 	public static final String MOD_ID = "darkdeep";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
+
+
 	@Override
 	public void onInitialize() {
 
@@ -21,4 +24,5 @@ public class DarkDeep implements ModInitializer {
 		ModDimensions.register();
 
 	}
+
 }

@@ -13,7 +13,7 @@ import net.rae.darkdeep.item.ModItems;
 
 public class ModDimensions {
     public static final RegistryKey<World> DDDIM_DIMENSION_KEY = RegistryKey.of(Registry.WORLD_KEY,
-            new Identifier(DarkDeep.MOD_ID, "dddim"));
+            new Identifier(DarkDeep.MOD_ID, "the_cavern"));
     public static final RegistryKey<DimensionType> DDDIM_TYPE_KEY = RegistryKey.of(Registry.DIMENSION_TYPE_KEY,
             DDDIM_DIMENSION_KEY.getValue());
 
