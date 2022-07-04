@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column_horizontal",
-  "textures": {
-    "end": "darkdeep:block/stripped_sculked_top",
-    "side": "darkdeep:block/stripped_sculked_log"
-  }
-}
