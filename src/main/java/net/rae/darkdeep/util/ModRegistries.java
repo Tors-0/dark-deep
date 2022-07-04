@@ -13,8 +13,8 @@ public class ModRegistries {
     private static void registerStrippables() {
         StrippableBlockRegistry.register(ModBlocks.ASH_LOG, ModBlocks.STRIPPED_ASH_LOG);
         StrippableBlockRegistry.register(ModBlocks.ASH_WOOD, ModBlocks.STRIPPED_ASH_WOOD);
-        StrippableBlockRegistry.register(ModBlocks.SCULKED_LOG, ModBlocks.STRIPPED_SCULKED_LOG);
-        StrippableBlockRegistry.register(ModBlocks.SCULKED_WOOD, ModBlocks.STRIPPED_SCULKED_WOOD);
+        StrippableBlockRegistry.register(ModBlocks.DREAMWOOD_LOG, ModBlocks.STRIPPED_DREAMWOOD_LOG);
+        StrippableBlockRegistry.register(ModBlocks.DREAMWOOD, ModBlocks.STRIPPED_DREAMWOOD);
     }
     private static void registerFlammableBlock() {
         FlammableBlockRegistry instance = FlammableBlockRegistry.getDefaultInstance();

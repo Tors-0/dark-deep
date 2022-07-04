@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "darkdeep:block/sculked_planks"
+    "all": "darkdeep:block/dreamwood_planks"
   }
 }

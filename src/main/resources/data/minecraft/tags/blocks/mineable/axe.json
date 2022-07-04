@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-
+    "#darkdeep:ash_logs",
+    "#darkdeep:dreamwood_logs"
   ]
 }
