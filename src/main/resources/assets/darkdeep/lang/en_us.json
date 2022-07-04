@@ -3,5 +3,17 @@
 
   "block.darkdeep.compressed_deepslate": "Compressed Deepslate",
 
+  "block.darkdeep.ash_log": "Ash Log",
+  "block.darkdeep.ash_wood": "Ash Wood",
+  "block.darkdeep.stripped_ash_log": "Stripped Ash Log",
+  "block.darkdeep.stripped_ash_wood": "Stripped Ash Wood",
+  "block.darkdeep.ash_planks": "Ash Planks",
+
+  "block.darkdeep.sculked_log": "Dreamwood Log",
+  "block.darkdeep.sculked_wood": "Dreamwood Wood",
+  "block.darkdeep.stripped_sculked_log": "Stripped Dreamwood Log",
+  "block.darkdeep.stripped_sculked_wood": "Stripped Dreamwood Wood",
+  "block.darkdeep.sculked_planks": "Dreamwood Planks",
+
   "itemGroup.darkdeep.the_cavern": "The Cavern"
 }

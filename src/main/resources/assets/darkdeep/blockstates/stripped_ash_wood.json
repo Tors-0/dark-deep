@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "darkdeep:block/stripped_ash_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "darkdeep:block/stripped_ash_wood"
+    },
+    "axis=z": {
+      "model": "darkdeep:block/stripped_ash_wood",
+      "x": 90
+    }
+  }
+}

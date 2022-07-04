@@ -1,0 +1,9 @@
+{
+  "replace": "false",
+  "values": [
+    "darkdeep:sculked_log",
+    "darkdeep:sculked_wood",
+    "darkdeep:stripped_sculked_log",
+    "darkdeep:stripped_sculked_wood"
+  ]
+}

@@ -17,42 +17,6 @@
             "depth": -2,
             "offset": 0
           }
-        },
-        {
-          "biome": "minecraft:forest",
-          "parameters": {
-            "temperature": 0,
-            "humidity": 1,
-            "continentalness": 0,
-            "erosion": -1,
-            "weirdness": 0,
-            "depth": 2,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "minecraft:jungle",
-          "parameters": {
-            "temperature": 1,
-            "humidity": 2,
-            "continentalness": 0,
-            "erosion": -2,
-            "weirdness": 1,
-            "depth": 1,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "minecraft:plains",
-          "parameters": {
-            "temperature": 1,
-            "humidity": 0,
-            "continentalness": 0,
-            "erosion": 2,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
-          }
         }
       ]
     }

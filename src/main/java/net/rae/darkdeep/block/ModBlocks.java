@@ -24,7 +24,7 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD).strength(4.5f).requiresTool()), ModItemGroup.THE_CAVERN);
     public static final Block STRIPPED_SCULKED_LOG = registerBlock("stripped_sculked_log",
             new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG).strength(4.5f).requiresTool()), ModItemGroup.THE_CAVERN);
-    public static final Block STRIPPED_SCULKED_WOOD = registerBlock("stripped_sculked_log",
+    public static final Block STRIPPED_SCULKED_WOOD = registerBlock("stripped_sculked_wood",
             new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_WOOD).strength(4.5f).requiresTool()), ModItemGroup.THE_CAVERN);
     public static final Block ASH_LOG = registerBlock("ash_log",
             new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG).strength(4f).requiresTool()), ModItemGroup.THE_CAVERN);
@@ -35,8 +35,9 @@ public class ModBlocks {
     public static final Block STRIPPED_ASH_WOOD = registerBlock("stripped_ash_wood",
             new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_WOOD).strength(4f).requiresTool()), ModItemGroup.THE_CAVERN);
 
+
     public static final Block SCULKED_PLANKS = registerBlock("sculked_planks",
-            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(4f).requiresTool()), ModItemGroup.THE_CAVERN);
+            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(4.5f).requiresTool()), ModItemGroup.THE_CAVERN);
     public static final Block ASH_PLANKS = registerBlock("ash_planks",
             new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(4f).requiresTool()), ModItemGroup.THE_CAVERN);
 

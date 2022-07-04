@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "darkdeep:block/sculked_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "darkdeep:block/sculked_log"
+    },
+    "axis=z": {
+      "model": "darkdeep:block/sculked_log_horizontal",
+      "x": 90
+    }
+  }
+}

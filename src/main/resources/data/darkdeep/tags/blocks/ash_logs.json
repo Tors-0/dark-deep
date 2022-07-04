@@ -1,0 +1,9 @@
+{
+  "replace": "false",
+  "values": [
+    "darkdeep:ash_log",
+    "darkdeep:ash_wood",
+    "darkdeep:stripped_ash_log",
+    "darkdeep:stripped_ash_wood"
+  ]
+}

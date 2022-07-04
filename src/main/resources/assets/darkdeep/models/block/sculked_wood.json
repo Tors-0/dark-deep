@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "darkdeep:block/sculked_log",
+    "side": "darkdeep:block/sculked_log"
+  }
+}
