@@ -5,6 +5,8 @@ import net.rae.darkdeep.block.ModBlocks;
 import net.rae.darkdeep.item.ModItems;
 import net.rae.darkdeep.util.ModRegistries;
 import net.rae.darkdeep.world.dimension.ModDimensions;
+import net.rae.darkdeep.world.feature.ModConfiguredFeatures;
+import net.rae.darkdeep.world.gen.ModWorldGen;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,12 +18,16 @@ public class DarkDeep implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		ModConfiguredFeatures.registerConfiguredFeatures();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
 		ModDimensions.register();
 
 		ModRegistries.registerModStuffs();
+
+		ModWorldGen.generateModWorldGen();
 
 	}
 }

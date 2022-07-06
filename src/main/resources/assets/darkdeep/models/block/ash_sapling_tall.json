@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "darkdeep:block/ash_sapling_tall"
+  }
+}

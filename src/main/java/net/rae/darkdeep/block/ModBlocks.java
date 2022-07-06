@@ -2,17 +2,17 @@ package net.rae.darkdeep.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.Material;
-import net.minecraft.block.PillarBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.rae.darkdeep.DarkDeep;
+import net.rae.darkdeep.block.custom.ModSaplingBlock;
 import net.rae.darkdeep.item.ModItemGroup;
+import net.rae.darkdeep.world.feature.tree.TallAshSaplingGenerator;
+import net.rae.darkdeep.world.feature.tree.DreamwoodSaplingGenerator;
 
 public class ModBlocks {
     public static final Block COMPRESSED_DEEPSLATE = registerBlock("compressed_deepslate",
@@ -40,6 +40,21 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(4.5f).requiresTool()), ModItemGroup.THE_CAVERN);
     public static final Block ASH_PLANKS = registerBlock("ash_planks",
             new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(4f).requiresTool()), ModItemGroup.THE_CAVERN);
+
+    public static final Block DREAMWOOD_LEAVES= registerBlock("dreamwood_leaves",
+            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES).nonOpaque()), ModItemGroup.THE_CAVERN);
+    public static final Block ASH_LEAVES = registerBlock("ash_leaves",
+            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES).nonOpaque()), ModItemGroup.THE_CAVERN);
+
+    public static final Block DREAMWOOD_SAPLING = registerBlock("dreamwood_sapling",
+            new ModSaplingBlock(new DreamwoodSaplingGenerator(),
+                    FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.THE_CAVERN);
+    public static final Block TALL_ASH_SAPLING = registerBlock("tall_ash_sapling",
+            new ModSaplingBlock(new TallAshSaplingGenerator(),
+                    FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.THE_CAVERN);
+    public static final Block WIDE_ASH_SAPLING = registerBlock("wide_ash_sapling",
+            new ModSaplingBlock(new TallAshSaplingGenerator(),
+                    FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.THE_CAVERN);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "darkdeep:block/ash_sapling_wide"
+  }
+}

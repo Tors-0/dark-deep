@@ -24,5 +24,6 @@ public class ModRegistries {
         instance.add(ModBlocks.STRIPPED_ASH_LOG, 5, 5);
         instance.add(ModBlocks.STRIPPED_ASH_WOOD, 5, 5);
         instance.add(ModBlocks.ASH_PLANKS, 5, 20);
+        instance.add(ModBlocks.ASH_LEAVES, 30, 60);
     }
 }
