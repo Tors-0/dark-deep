@@ -1,17 +1,3 @@
-Current Known Issues:
--
-- Broken Textures:
-  - Blocks:
-    - Horizontal Stripped Ash Log
-    - Horizontal Stripped Dreamwood Log
-  - BlockItems:
-    - Dreamwood
-    - Stripped Dreamwood Log
-    - Stripped Dreamwood
-    - Ash Wood
-    - Stripped Ash Log
-    - Stripped Ash Wood
-
 Current Features:
 -
 - Use Echo Igniter to light portal found in ancient cities
