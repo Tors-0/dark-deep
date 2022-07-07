@@ -21,14 +21,14 @@ public class ModConfiguredFeatures {
     public static final RegistryEntry<ConfiguredFeature<TreeFeatureConfig, ?>> WIDE_ASH_TREE =
             ConfiguredFeatures.register("wide_ash_tree", Feature.TREE, new TreeFeatureConfig.Builder(
                     BlockStateProvider.of(ModBlocks.ASH_LOG),
-                    new DarkOakTrunkPlacer(5, 6, 3),
+                    new DarkOakTrunkPlacer(5, 6, 4),
                     BlockStateProvider.of(ModBlocks.ASH_LEAVES),
-                    new DarkOakFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0)),
+                    new DarkOakFoliagePlacer(ConstantIntProvider.create(1), ConstantIntProvider.create(0)),
                     new TwoLayersFeatureSize(1, 0, 2)).build());
     public static final RegistryEntry<ConfiguredFeature<TreeFeatureConfig, ?>> TALL_ASH_TREE =
             ConfiguredFeatures.register("tall_ash_tree", Feature.TREE, new TreeFeatureConfig.Builder(
                     BlockStateProvider.of(ModBlocks.ASH_LOG),
-                    new MegaJungleTrunkPlacer(5, 6, 3),
+                    new MegaJungleTrunkPlacer(15, 18, 6),
                     BlockStateProvider.of(ModBlocks.ASH_LEAVES),
                     new JungleFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 4),
                     new TwoLayersFeatureSize(1, 0, 2)).build());
@@ -37,7 +37,7 @@ public class ModConfiguredFeatures {
                     BlockStateProvider.of(ModBlocks.DREAMWOOD_LOG),
                     new StraightTrunkPlacer(5, 6, 3),
                     BlockStateProvider.of(ModBlocks.DREAMWOOD_LEAVES),
-                    new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 4),
+                    new BlobFoliagePlacer(ConstantIntProvider.create(3), ConstantIntProvider.create(0), 3),
                     new TwoLayersFeatureSize(1, 0, 2)).dirtProvider(BlockStateProvider.of(Blocks.SCULK)).build());
 
     public static final RegistryEntry<PlacedFeature> WIDE_ASH_CHECKED =

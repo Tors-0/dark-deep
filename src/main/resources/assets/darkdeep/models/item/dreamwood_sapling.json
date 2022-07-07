@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "item/generated",
   "textures": {
-    "layer0": "darkdeep:block/ash_sapling"
+    "layer0": "darkdeep:block/dreamwood_sapling"
   }
 }

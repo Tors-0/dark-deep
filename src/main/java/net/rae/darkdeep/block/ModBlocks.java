@@ -13,6 +13,7 @@ import net.rae.darkdeep.block.custom.ModSaplingBlock;
 import net.rae.darkdeep.item.ModItemGroup;
 import net.rae.darkdeep.world.feature.tree.TallAshSaplingGenerator;
 import net.rae.darkdeep.world.feature.tree.DreamwoodSaplingGenerator;
+import net.rae.darkdeep.world.feature.tree.WideAshSaplingGenerator;
 
 public class ModBlocks {
     public static final Block COMPRESSED_DEEPSLATE = registerBlock("compressed_deepslate",
@@ -48,12 +49,12 @@ public class ModBlocks {
 
     public static final Block DREAMWOOD_SAPLING = registerBlock("dreamwood_sapling",
             new ModSaplingBlock(new DreamwoodSaplingGenerator(),
+                    FabricBlockSettings.copy(Blocks.OAK_SAPLING), () -> Blocks.SCULK), ModItemGroup.THE_CAVERN);
+    public static final Block TALL_ASH_SAPLING = registerBlock("ash_sapling_tall",
+            new SaplingBlock(new TallAshSaplingGenerator(),
                     FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.THE_CAVERN);
-    public static final Block TALL_ASH_SAPLING = registerBlock("tall_ash_sapling",
-            new ModSaplingBlock(new TallAshSaplingGenerator(),
-                    FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.THE_CAVERN);
-    public static final Block WIDE_ASH_SAPLING = registerBlock("wide_ash_sapling",
-            new ModSaplingBlock(new TallAshSaplingGenerator(),
+    public static final Block WIDE_ASH_SAPLING = registerBlock("ash_sapling_wide",
+            new SaplingBlock(new WideAshSaplingGenerator(),
                     FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.THE_CAVERN);
 
 
