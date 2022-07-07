@@ -11,6 +11,11 @@ public class ModItems {
     public static final Item ECHO_IGNITER = registerItem("echo_igniter",
             new Item(new FabricItemSettings().group(ModItemGroup.THE_CAVERN).maxCount(1)));
 
+    public static final Item ASH_STICK = registerItem("ash_stick",
+            new Item(new FabricItemSettings().group(ModItemGroup.THE_CAVERN)));
+    public static final Item DREAMWOOD_STICK = registerItem("dreamwood_stick",
+            new Item(new FabricItemSettings().group(ModItemGroup.THE_CAVERN)));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(DarkDeep.MOD_ID, name), item);
     }

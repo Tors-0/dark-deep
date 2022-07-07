@@ -1,5 +1,7 @@
 {
   "item.darkdeep.echo_igniter": "Echo Igniter",
+  "item.darkdeep.ash_stick": "Ash Stick",
+  "item.darkdeep.dreamwood_stick": "Dreamwood Stick",
 
   "block.darkdeep.compressed_deepslate": "Compressed Deepslate",
 
@@ -8,14 +10,14 @@
   "block.darkdeep.stripped_ash_log": "Stripped Ash Log",
   "block.darkdeep.stripped_ash_wood": "Stripped Ash Wood",
   "block.darkdeep.ash_planks": "Ash Planks",
-  "block.darkdeep.tall_ash_sapling": "Tall Ash Sapling",
-  "block.darkdeep.wide_ash_sapling": "Wide Ash Sapling",
+  "block.darkdeep.ash_sapling_tall": "Tall Ash Sapling",
+  "block.darkdeep.ash_sapling_wide": "Wide Ash Sapling",
   "block.darkdeep.ash_leaves": "Ash Leaves",
 
   "block.darkdeep.dreamwood_log": "Dreamwood Log",
-  "block.darkdeep.dreamwood": "Dreamwood Wood",
+  "block.darkdeep.dreamwood": "Dreamwood",
   "block.darkdeep.stripped_dreamwood_log": "Stripped Dreamwood Log",
-  "block.darkdeep.stripped_dreamwood": "Stripped Dreamwood Wood",
+  "block.darkdeep.stripped_dreamwood": "Stripped Dreamwood",
   "block.darkdeep.dreamwood_planks": "Dreamwood Planks",
   "block.darkdeep.dreamwood_sapling": "Dreamwood Sapling",
   "block.darkdeep.dreamwood_leaves": "Dreamwood Leaves",

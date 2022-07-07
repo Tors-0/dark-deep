@@ -1,0 +1,9 @@
+{
+  "replace": "false",
+  "values": [
+    "#darkdeep:ash_logs",
+    "#darkdeep:dreamwood_logs",
+    "darkdeep:ash_planks",
+    "darkdeep:dreamwood_planks"
+  ]
+}
