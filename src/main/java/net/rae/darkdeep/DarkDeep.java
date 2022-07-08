@@ -23,11 +23,10 @@ public class DarkDeep implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
-		ModDimensions.register();
-
 		ModRegistries.registerModStuffs();
 
 		ModWorldGen.generateModWorldGen();
 
+		ModDimensions.register();
 	}
 }
