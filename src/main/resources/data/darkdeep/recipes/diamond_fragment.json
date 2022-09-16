@@ -1,6 +1,6 @@
 {
   "type": "minecraft:smelting",
-  "cookingtime": 1600,
+  "cookingtime": 400,
   "experience": 2.0,
   "ingredient": {
     "item": "darkdeep:diamond_dust"
