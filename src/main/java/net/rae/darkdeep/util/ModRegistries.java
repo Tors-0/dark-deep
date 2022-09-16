@@ -19,6 +19,11 @@ public class ModRegistries {
         FuelRegistry registry = FuelRegistry.INSTANCE;
 
         registry.add(ModItems.ASH_STICK, 200);
+        registry.add(ModBlocks.ASH_PLANKS,300);
+        registry.add(ModBlocks.ASH_LOG,300);
+        registry.add(ModBlocks.ASH_WOOD,300);
+        registry.add(ModBlocks.STRIPPED_ASH_LOG,300);
+        registry.add(ModBlocks.STRIPPED_ASH_WOOD,300);
 
     }
     private static void registerStrippables() {

@@ -49,13 +49,13 @@ public class ModBlocks {
 
     public static final Block DREAMWOOD_SAPLING = registerBlock("dreamwood_sapling",
             new ModSaplingBlock(new DreamwoodSaplingGenerator(),
-                    FabricBlockSettings.copy(Blocks.BIRCH_SAPLING).nonOpaque(), () -> Blocks.SCULK), ModItemGroup.THE_CAVERN);
+                    FabricBlockSettings.copy(Blocks.OAK_SAPLING), () -> Blocks.SCULK), ModItemGroup.THE_CAVERN);
     public static final Block TALL_ASH_SAPLING = registerBlock("ash_sapling_tall",
             new SaplingBlock(new TallAshSaplingGenerator(),
-                    FabricBlockSettings.copy(Blocks.JUNGLE_SAPLING).nonOpaque()), ModItemGroup.THE_CAVERN);
+                    FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.THE_CAVERN);
     public static final Block WIDE_ASH_SAPLING = registerBlock("ash_sapling_wide",
             new SaplingBlock(new WideAshSaplingGenerator(),
-                    FabricBlockSettings.copy(Blocks.DARK_OAK_SAPLING).nonOpaque()), ModItemGroup.THE_CAVERN);
+                    FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.THE_CAVERN);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
