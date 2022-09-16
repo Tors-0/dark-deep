@@ -1,15 +1,26 @@
 package net.rae.darkdeep.util;
 
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
+import net.rae.darkdeep.DarkDeep;
 import net.rae.darkdeep.block.ModBlocks;
+import net.rae.darkdeep.item.ModItems;
 
 public class ModRegistries {
     public static void registerModStuffs() {
         registerStrippables();
         registerFlammableBlock();
-    }
+        registerFuels();
+  }
 
+    private  static void registerFuels() {
+        DarkDeep.LOGGER.info("Registering Fuels for " + DarkDeep.MOD_ID);
+        FuelRegistry registry = FuelRegistry.INSTANCE;
+
+        registry.add(ModItems.ASH_STICK, 200);
+
+    }
     private static void registerStrippables() {
         StrippableBlockRegistry.register(ModBlocks.ASH_LOG, ModBlocks.STRIPPED_ASH_LOG);
         StrippableBlockRegistry.register(ModBlocks.ASH_WOOD, ModBlocks.STRIPPED_ASH_WOOD);

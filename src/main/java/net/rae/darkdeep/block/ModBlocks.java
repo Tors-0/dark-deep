@@ -17,7 +17,7 @@ import net.rae.darkdeep.world.feature.tree.WideAshSaplingGenerator;
 
 public class ModBlocks {
     public static final Block COMPRESSED_DEEPSLATE = registerBlock("compressed_deepslate",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(8f).requiresTool()), ModItemGroup.THE_CAVERN);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(40f).requiresTool()), ModItemGroup.THE_CAVERN);
 
     public static final Block DREAMWOOD_LOG = registerBlock("dreamwood_log",
             new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG).strength(4.5f)), ModItemGroup.THE_CAVERN);

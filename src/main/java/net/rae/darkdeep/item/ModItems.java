@@ -11,6 +11,11 @@ public class ModItems {
     public static final Item ECHO_IGNITER = registerItem("echo_igniter",
             new Item(new FabricItemSettings().group(ModItemGroup.THE_CAVERN).maxCount(1)));
 
+    public static final Item DIAMOND_DUST = registerItem("diamond_dust",
+            new Item(new FabricItemSettings().group(ModItemGroup.THE_CAVERN)));
+    public static final Item DIAMOND_FRAGMENT = registerItem("diamond_fragment",
+            new Item(new FabricItemSettings().group(ModItemGroup.THE_CAVERN)));
+
     public static final Item ASH_STICK = registerItem("ash_stick",
             new Item(new FabricItemSettings().group(ModItemGroup.THE_CAVERN)));
     public static final Item DREAMWOOD_STICK = registerItem("dreamwood_stick",
