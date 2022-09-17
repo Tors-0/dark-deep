@@ -6,6 +6,9 @@
   "item.darkdeep.diamond_fragment": "Diamond Fragment",
 
   "block.darkdeep.compressed_deepslate": "Compressed Deepslate",
+  "block.darkdeep.compressed_deepslate_button": "Compressed Deepslate Button",
+  "block.darkdeep.compressed_deepslate_pressure_plate": "Compressed Deepslate Pressure Plate",
+  "block.darkdeep.compressed_deepslate_wall": "Compressed Deepslate Wall",
 
   "block.darkdeep.ash_log": "Ash Log",
   "block.darkdeep.ash_wood": "Ash Wood",
@@ -15,6 +18,10 @@
   "block.darkdeep.ash_sapling_tall": "Tall Ash Sapling",
   "block.darkdeep.ash_sapling_wide": "Wide Ash Sapling",
   "block.darkdeep.ash_leaves": "Ash Leaves",
+  "block.darkdeep.ash_fence": "Ash Fence",
+  "block.darkdeep.ash_fence_gate": "Ash Fence Gate",
+  "block.darkdeep.ash_button": "Ash Button",
+  "block.darkdeep.ash_pressure_plate": "Ash Pressure Plate",
 
   "block.darkdeep.dreamwood_log": "Dreamwood Log",
   "block.darkdeep.dreamwood": "Dreamwood",

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "darkdeep:compressed_deepslate"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "darkdeep:compressed_deepslate_button"
+  }
+}

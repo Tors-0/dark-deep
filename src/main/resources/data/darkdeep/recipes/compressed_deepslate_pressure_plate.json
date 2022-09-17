@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "darkdeep:compressed_deepslate"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "darkdeep:compressed_deepslate_pressure_plate"
+  }
+}

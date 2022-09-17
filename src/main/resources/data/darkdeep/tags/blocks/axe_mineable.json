@@ -4,6 +4,10 @@
     "#darkdeep:ash_logs",
     "#darkdeep:dreamwood_logs",
     "darkdeep:ash_planks",
-    "darkdeep:dreamwood_planks"
+    "darkdeep:dreamwood_planks",
+    "darkdeep:ash_button",
+    "darkdeep:ash_fence",
+    "darkdeep:ash_pressure_plate",
+    "darkdeep:ash_fence_gate"
   ]
 }

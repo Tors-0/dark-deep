@@ -17,7 +17,23 @@ import net.rae.darkdeep.world.feature.tree.WideAshSaplingGenerator;
 
 public class ModBlocks {
     public static final Block COMPRESSED_DEEPSLATE = registerBlock("compressed_deepslate",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(40f).requiresTool()), ModItemGroup.THE_CAVERN);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(40f).requiresTool().resistance(800f)), ModItemGroup.THE_CAVERN);
+
+    public static final Block COMPRESSED_DEEPSLATE_BUTTON = registerBlock("compressed_deepslate_button",
+            new StoneButtonBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool().noCollision()), ModItemGroup.THE_CAVERN);
+    public static final Block COMPRESSED_DEEPSLATE_PRESSURE_PLATE = registerBlock("compressed_deepslate_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.MOBS, FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.THE_CAVERN);
+    public static final Block COMPRESSED_DEEPSLATE_WALL = registerBlock("compressed_deepslate_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(10f).requiresTool()), ModItemGroup.THE_CAVERN);
+
+    public static final Block ASH_FENCE = registerBlock("ash_fence",
+            new FenceBlock(FabricBlockSettings.of(Material.WOOD).strength(4f)), ModItemGroup.THE_CAVERN);
+    public static final Block ASH_FENCE_GATE = registerBlock("ash_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.of(Material.WOOD).strength(4f)), ModItemGroup.THE_CAVERN);
+    public static final Block ASH_PRESSURE_PLATE = registerBlock("ash_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOD).strength(4f)), ModItemGroup.THE_CAVERN);
+    public static final Block ASH_BUTTON = registerBlock("ash_button",
+            new StoneButtonBlock(FabricBlockSettings.of(Material.WOOD).strength(4f).noCollision()), ModItemGroup.THE_CAVERN);
 
     public static final Block DREAMWOOD_LOG = registerBlock("dreamwood_log",
             new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG).strength(4.5f)), ModItemGroup.THE_CAVERN);
@@ -56,6 +72,7 @@ public class ModBlocks {
     public static final Block WIDE_ASH_SAPLING = registerBlock("ash_sapling_wide",
             new SaplingBlock(new WideAshSaplingGenerator(),
                     FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.THE_CAVERN);
+
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
