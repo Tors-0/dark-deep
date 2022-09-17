@@ -35,6 +35,15 @@ public class ModBlocks {
     public static final Block ASH_BUTTON = registerBlock("ash_button",
             new StoneButtonBlock(FabricBlockSettings.of(Material.WOOD).strength(4f).noCollision()), ModItemGroup.THE_CAVERN);
 
+    public static final Block DREAMWOOD_FENCE = registerBlock("dreamwood_fence",
+            new FenceBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f)), ModItemGroup.THE_CAVERN);
+    public static final Block DREAMWOOD_FENCE_GATE = registerBlock("dreamwood_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f)), ModItemGroup.THE_CAVERN);
+    public static final Block DREAMWOOD_PRESSURE_PLATE = registerBlock("dreamwood_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOD).strength(4.5f)), ModItemGroup.THE_CAVERN);
+    public static final Block DREAMWOOD_BUTTON = registerBlock("dreamwood_button",
+            new StoneButtonBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).noCollision()), ModItemGroup.THE_CAVERN);
+
     public static final Block DREAMWOOD_LOG = registerBlock("dreamwood_log",
             new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG).strength(4.5f)), ModItemGroup.THE_CAVERN);
     public static final Block DREAMWOOD = registerBlock("dreamwood",

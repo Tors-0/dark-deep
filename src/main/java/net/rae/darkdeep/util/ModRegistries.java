@@ -18,12 +18,16 @@ public class ModRegistries {
         DarkDeep.LOGGER.info("Registering Fuels for " + DarkDeep.MOD_ID);
         FuelRegistry registry = FuelRegistry.INSTANCE;
 
-        registry.add(ModItems.ASH_STICK, 200);
+        registry.add(ModItems.ASH_STICK, 150);
         registry.add(ModBlocks.ASH_PLANKS,300);
         registry.add(ModBlocks.ASH_LOG,300);
         registry.add(ModBlocks.ASH_WOOD,300);
         registry.add(ModBlocks.STRIPPED_ASH_LOG,300);
         registry.add(ModBlocks.STRIPPED_ASH_WOOD,300);
+        registry.add(ModBlocks.ASH_FENCE,450);
+        registry.add(ModBlocks.ASH_FENCE_GATE,450);
+        registry.add(ModBlocks.ASH_BUTTON,200);
+        registry.add(ModBlocks.ASH_PRESSURE_PLATE,200);
 
     }
     private static void registerStrippables() {

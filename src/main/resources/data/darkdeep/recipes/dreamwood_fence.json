@@ -1,15 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "##",
-    "##"
+    "#!#",
+    "#!#"
   ],
   "key": {
     "#": {
       "item": "darkdeep:dreamwood_planks"
+    },
+    "!": {
+      "item": "darkdeep:dreamwood_stick"
     }
   },
   "result": {
-    "item": "minecraft:crafting_table"
+    "count": 3,
+    "item": "darkdeep:dreamwood_fence"
   }
 }

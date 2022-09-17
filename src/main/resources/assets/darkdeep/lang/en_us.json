@@ -30,6 +30,10 @@
   "block.darkdeep.dreamwood_planks": "Dreamwood Planks",
   "block.darkdeep.dreamwood_sapling": "Dreamwood Sapling",
   "block.darkdeep.dreamwood_leaves": "Dreamwood Leaves",
+  "block.darkdeep.dreamwood_fence": "Dreamwood Fence",
+  "block.darkdeep.dreamwood_fence_gate": "Dreamwood Fence Gate",
+  "block.darkdeep.dreamwood_button": "Dreamwood Button",
+  "block.darkdeep.dreamwood_pressure_plate": "Dreamwood Pressure Plate",
 
   "itemGroup.darkdeep.the_cavern": "The Cavern"
 }

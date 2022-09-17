@@ -8,6 +8,10 @@
     "darkdeep:ash_button",
     "darkdeep:ash_fence",
     "darkdeep:ash_pressure_plate",
-    "darkdeep:ash_fence_gate"
+    "darkdeep:ash_fence_gate",
+    "darkdeep:dreamwood_button",
+    "darkdeep:dreamwood_fence",
+    "darkdeep:dreamwood_pressure_plate",
+    "darkdeep:dreamwood_fence_gate"
   ]
 }
