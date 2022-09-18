@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "darkdeep:block/ash_planks",
+    "top": "darkdeep:block/ash_planks",
+    "side": "darkdeep:block/ash_planks"
+  }
+}

@@ -26,6 +26,11 @@ public class ModBlocks {
     public static final Block COMPRESSED_DEEPSLATE_WALL = registerBlock("compressed_deepslate_wall",
             new WallBlock(FabricBlockSettings.of(Material.STONE).strength(10f).requiresTool()), ModItemGroup.THE_CAVERN);
 
+    public static final Block DREAMWOOD_PLANKS = registerBlock("dreamwood_planks",
+            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(4.5f)), ModItemGroup.THE_CAVERN);
+    public static final Block ASH_PLANKS = registerBlock("ash_planks",
+            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(4f)), ModItemGroup.THE_CAVERN);
+
     public static final Block ASH_FENCE = registerBlock("ash_fence",
             new FenceBlock(FabricBlockSettings.of(Material.WOOD).strength(4f)), ModItemGroup.THE_CAVERN);
     public static final Block ASH_FENCE_GATE = registerBlock("ash_fence_gate",
@@ -33,7 +38,12 @@ public class ModBlocks {
     public static final Block ASH_PRESSURE_PLATE = registerBlock("ash_pressure_plate",
             new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOD).strength(4f)), ModItemGroup.THE_CAVERN);
     public static final Block ASH_BUTTON = registerBlock("ash_button",
-            new StoneButtonBlock(FabricBlockSettings.of(Material.WOOD).strength(4f).noCollision()), ModItemGroup.THE_CAVERN);
+            new WoodenButtonBlock(FabricBlockSettings.of(Material.WOOD).strength(4f).noCollision()), ModItemGroup.THE_CAVERN);
+    public static final Block ASH_SLAB = registerBlock("ash_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(4f)), ModItemGroup.THE_CAVERN);
+    public static final Block ASH_STAIRS = registerBlock("ash_stairs",
+            new StairsBlock(ModBlocks.ASH_PLANKS.getDefaultState(),
+                    FabricBlockSettings.of(Material.WOOD).strength(4f)), ModItemGroup.THE_CAVERN);
 
     public static final Block DREAMWOOD_FENCE = registerBlock("dreamwood_fence",
             new FenceBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f)), ModItemGroup.THE_CAVERN);
@@ -42,7 +52,13 @@ public class ModBlocks {
     public static final Block DREAMWOOD_PRESSURE_PLATE = registerBlock("dreamwood_pressure_plate",
             new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOD).strength(4.5f)), ModItemGroup.THE_CAVERN);
     public static final Block DREAMWOOD_BUTTON = registerBlock("dreamwood_button",
-            new StoneButtonBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).noCollision()), ModItemGroup.THE_CAVERN);
+            new WoodenButtonBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f).noCollision()), ModItemGroup.THE_CAVERN);
+    public static final Block DREAMWOOD_SLAB = registerBlock("dreamwood_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(4.5f)), ModItemGroup.THE_CAVERN);
+    public static final Block DREAMWOOD_STAIRS = registerBlock("dreamwood_stairs",
+            new StairsBlock(ModBlocks.DREAMWOOD_PLANKS.getDefaultState(),
+        FabricBlockSettings.of(Material.WOOD).strength(4.5f)), ModItemGroup.THE_CAVERN);
+
 
     public static final Block DREAMWOOD_LOG = registerBlock("dreamwood_log",
             new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG).strength(4.5f)), ModItemGroup.THE_CAVERN);
@@ -62,10 +78,7 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_WOOD).strength(4f)), ModItemGroup.THE_CAVERN);
 
 
-    public static final Block DREAMWOOD_PLANKS = registerBlock("dreamwood_planks",
-            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(4.5f)), ModItemGroup.THE_CAVERN);
-    public static final Block ASH_PLANKS = registerBlock("ash_planks",
-            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(4f)), ModItemGroup.THE_CAVERN);
+
 
     public static final Block DREAMWOOD_LEAVES= registerBlock("dreamwood_leaves",
             new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES).nonOpaque()), ModItemGroup.THE_CAVERN);

@@ -22,6 +22,8 @@
   "block.darkdeep.ash_fence_gate": "Ash Fence Gate",
   "block.darkdeep.ash_button": "Ash Button",
   "block.darkdeep.ash_pressure_plate": "Ash Pressure Plate",
+  "block.darkdeep.ash_slab": "Ash Slab",
+  "block.darkdeep.ash_stairs": "Ash Stairs",
 
   "block.darkdeep.dreamwood_log": "Dreamwood Log",
   "block.darkdeep.dreamwood": "Dreamwood",
@@ -34,6 +36,8 @@
   "block.darkdeep.dreamwood_fence_gate": "Dreamwood Fence Gate",
   "block.darkdeep.dreamwood_button": "Dreamwood Button",
   "block.darkdeep.dreamwood_pressure_plate": "Dreamwood Pressure Plate",
+  "block.darkdeep.dreamwood_slab": "Dreamwood Slab",
+  "block.darkdeep.dreamwood_stairs": "Dreamwood Stairs",
 
   "itemGroup.darkdeep.the_cavern": "The Cavern"
 }

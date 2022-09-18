@@ -35,7 +35,7 @@ public class ModConfiguredFeatures {
     public static final RegistryEntry<ConfiguredFeature<TreeFeatureConfig, ?>> DREAMWOOD_TREE =
             ConfiguredFeatures.register("dreamwood_tree", Feature.TREE, new TreeFeatureConfig.Builder(
                     BlockStateProvider.of(ModBlocks.DREAMWOOD_LOG),
-                    new StraightTrunkPlacer(3, 8, 2),
+                    new StraightTrunkPlacer(3, 4, 2),
                     BlockStateProvider.of(ModBlocks.DREAMWOOD_LEAVES),
                     new BlobFoliagePlacer(ConstantIntProvider.create(3), ConstantIntProvider.create(0), 3),
                     new TwoLayersFeatureSize(1, 0, 2)).dirtProvider(BlockStateProvider.of(Blocks.SCULK)).build());

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "darkdeep:block/dreamwood_slab"
+    },
+    "type=double": {
+      "model": "darkdeep:block/dreamwood_block"
+    },
+    "type=top": {
+      "model": "darkdeep:block/dreamwood_slab_top"
+    }
+  }
+}

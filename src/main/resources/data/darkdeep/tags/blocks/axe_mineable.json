@@ -12,6 +12,10 @@
     "darkdeep:dreamwood_button",
     "darkdeep:dreamwood_fence",
     "darkdeep:dreamwood_pressure_plate",
-    "darkdeep:dreamwood_fence_gate"
+    "darkdeep:dreamwood_fence_gate",
+    "darkdeep:dreamwood_slab",
+    "darkdeep:dreamwood_stairs",
+    "darkdeep:ash_slab",
+    "darkdeep:ash_stairs"
   ]
 }

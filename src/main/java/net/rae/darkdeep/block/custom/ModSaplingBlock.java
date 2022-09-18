@@ -14,8 +14,6 @@ public class ModSaplingBlock extends SaplingBlock {
     /**
      * Access widened by fabric-transitive-access-wideners-v1 to accessible
      *
-     * @param generator
-     * @param settings
      */
     public ModSaplingBlock(SaplingGenerator generator, Settings settings, Supplier<Block> ground) {
         super(generator, settings);

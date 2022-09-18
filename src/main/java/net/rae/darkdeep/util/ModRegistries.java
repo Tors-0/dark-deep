@@ -28,6 +28,8 @@ public class ModRegistries {
         registry.add(ModBlocks.ASH_FENCE_GATE,450);
         registry.add(ModBlocks.ASH_BUTTON,200);
         registry.add(ModBlocks.ASH_PRESSURE_PLATE,200);
+        registry.add(ModBlocks.ASH_SLAB,150);
+        registry.add(ModBlocks.ASH_STAIRS,300);
 
     }
     private static void registerStrippables() {
