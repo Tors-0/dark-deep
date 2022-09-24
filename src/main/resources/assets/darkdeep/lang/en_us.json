@@ -9,6 +9,11 @@
   "block.darkdeep.compressed_deepslate_button": "Compressed Deepslate Button",
   "block.darkdeep.compressed_deepslate_pressure_plate": "Compressed Deepslate Pressure Plate",
   "block.darkdeep.compressed_deepslate_wall": "Compressed Deepslate Wall",
+  "block.darkdeep.compressed_deepslate_slab": "Compressed Deepslate Slab",
+  "block.darkdeep.compressed_deepslate_stairs": "Compressed Deepslate Stairs",
+
+  "advancements.darkdeep.enter_the_cavern.title": "We Need To Go Darker",
+  "advancements.darkdeep.enter_the_cavern.description": "Enter The Cavern",
 
   "block.darkdeep.ash_log": "Ash Log",
   "block.darkdeep.ash_wood": "Ash Wood",
