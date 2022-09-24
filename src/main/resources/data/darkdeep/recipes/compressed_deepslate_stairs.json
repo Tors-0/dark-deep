@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "darkdeep:compressed_deepslate"
+    }
+  },
+  "result": {
+    "count": 4,
+    "item": "darkdeep:compressed_deepslate_stairs"
+  }
+}

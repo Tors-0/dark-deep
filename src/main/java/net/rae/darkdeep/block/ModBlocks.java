@@ -24,7 +24,12 @@ public class ModBlocks {
     public static final Block COMPRESSED_DEEPSLATE_PRESSURE_PLATE = registerBlock("compressed_deepslate_pressure_plate",
             new PressurePlateBlock(PressurePlateBlock.ActivationRule.MOBS, FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.THE_CAVERN);
     public static final Block COMPRESSED_DEEPSLATE_WALL = registerBlock("compressed_deepslate_wall",
-            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(10f).requiresTool()), ModItemGroup.THE_CAVERN);
+            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(10f).requiresTool().resistance(800f)), ModItemGroup.THE_CAVERN);
+    public static final Block COMPRESSED_DEEPSLATE_SLAB = registerBlock("compressed_deepslate_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(10f).requiresTool().resistance(800f)), ModItemGroup.THE_CAVERN);
+    public static final Block COMPRESSED_DEEPSLATE_STAIRS = registerBlock("compressed_deepslate_stairs",
+            new StairsBlock(ModBlocks.COMPRESSED_DEEPSLATE.getDefaultState(),
+                    FabricBlockSettings.of(Material.STONE).strength(10f).requiresTool().resistance(800f)), ModItemGroup.THE_CAVERN);
 
     public static final Block DREAMWOOD_PLANKS = registerBlock("dreamwood_planks",
             new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(4.5f)), ModItemGroup.THE_CAVERN);

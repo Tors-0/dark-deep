@@ -4,6 +4,8 @@
     "darkdeep:compressed_deepslate",
     "darkdeep:compressed_deepslate_wall",
     "darkdeep:compressed_deepslate_button",
-    "darkdeep:compressed_deepslate_pressure_plate"
+    "darkdeep:compressed_deepslate_pressure_plate",
+    "darkdeep:compressed_deepslate_slab",
+    "darkdeep:compressed_deepslate_stairs"
   ]
 }
