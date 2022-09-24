@@ -4,7 +4,7 @@
       "model": "darkdeep:block/ash_slab"
     },
     "type=double": {
-      "model": "darkdeep:block/ash_block"
+      "model": "darkdeep:block/ash_planks"
     },
     "type=top": {
       "model": "darkdeep:block/ash_slab_top"

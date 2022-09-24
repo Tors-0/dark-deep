@@ -2,6 +2,7 @@ package net.rae.darkdeep.util;
 
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
+import net.fabricmc.fabric.api.registry.CompostingChanceRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.rae.darkdeep.DarkDeep;
 import net.rae.darkdeep.block.ModBlocks;
@@ -12,8 +13,19 @@ public class ModRegistries {
         registerStrippables();
         registerFlammableBlock();
         registerFuels();
+        registerCompostables();
   }
 
+  private static void registerCompostables() {
+        DarkDeep.LOGGER.info("Registering Compostables for " + DarkDeep.MOD_ID);
+        CompostingChanceRegistry registry = CompostingChanceRegistry.INSTANCE;
+
+        registry.add(ModBlocks.DREAMWOOD_SAPLING, 0.3F);
+        registry.add(ModBlocks.DREAMWOOD_LEAVES, 0.3F);
+        registry.add(ModBlocks.TALL_ASH_SAPLING, 0.3F);
+        registry.add(ModBlocks.WIDE_ASH_SAPLING, 0.3F);
+        registry.add(ModBlocks.ASH_LEAVES,0.3F);
+  }
     private  static void registerFuels() {
         DarkDeep.LOGGER.info("Registering Fuels for " + DarkDeep.MOD_ID);
         FuelRegistry registry = FuelRegistry.INSTANCE;
