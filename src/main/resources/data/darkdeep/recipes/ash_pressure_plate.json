@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "darkdeep:ash_planks"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "darkdeep:ash_pressure_plate"
+  }
+}

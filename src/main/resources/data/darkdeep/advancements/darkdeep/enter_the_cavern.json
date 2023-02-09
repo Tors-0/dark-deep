@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "entered_cavern": {
+      "conditions": {
+        "to": "darkdeep:dddim"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/nether.png",
+    "description": {
+      "translate": "advancements.darkdeep.enter_the_cavern.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "darkdeep:echo_igniter"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.darkdeep.enter_the_cavern.title"
+    }
+  },
+  "requirements": [
+    [
+      "entered_cavern"
+    ]
+  ]
+}

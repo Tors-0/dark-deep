@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-
+    "darkdeep:dreamwood_leaves",
+    "darkdeep:ash_leaves"
   ]
 }

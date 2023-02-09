@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": { "model": "darkdeep:block/ash_pressure_plate" },
+    "powered=true": { "model": "darkdeep:block/ash_pressure_plate_down" }
+  }
+}

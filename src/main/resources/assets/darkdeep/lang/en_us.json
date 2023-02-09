@@ -1,7 +1,48 @@
 {
   "item.darkdeep.echo_igniter": "Echo Igniter",
+  "item.darkdeep.ash_stick": "Ash Stick",
+  "item.darkdeep.dreamwood_stick": "Dreamwood Stick",
+  "item.darkdeep.diamond_dust": "Diamond Dust",
+  "item.darkdeep.diamond_fragment": "Diamond Fragment",
 
   "block.darkdeep.compressed_deepslate": "Compressed Deepslate",
+  "block.darkdeep.compressed_deepslate_button": "Compressed Deepslate Button",
+  "block.darkdeep.compressed_deepslate_pressure_plate": "Compressed Deepslate Pressure Plate",
+  "block.darkdeep.compressed_deepslate_wall": "Compressed Deepslate Wall",
+  "block.darkdeep.compressed_deepslate_slab": "Compressed Deepslate Slab",
+  "block.darkdeep.compressed_deepslate_stairs": "Compressed Deepslate Stairs",
+
+  "advancements.darkdeep.enter_the_cavern.title": "We Need To Go Darker",
+  "advancements.darkdeep.enter_the_cavern.description": "Enter The Cavern",
+
+  "block.darkdeep.ash_log": "Ash Log",
+  "block.darkdeep.ash_wood": "Ash Wood",
+  "block.darkdeep.stripped_ash_log": "Stripped Ash Log",
+  "block.darkdeep.stripped_ash_wood": "Stripped Ash Wood",
+  "block.darkdeep.ash_planks": "Ash Planks",
+  "block.darkdeep.ash_sapling_tall": "Tall Ash Sapling",
+  "block.darkdeep.ash_sapling_wide": "Wide Ash Sapling",
+  "block.darkdeep.ash_leaves": "Ash Leaves",
+  "block.darkdeep.ash_fence": "Ash Fence",
+  "block.darkdeep.ash_fence_gate": "Ash Fence Gate",
+  "block.darkdeep.ash_button": "Ash Button",
+  "block.darkdeep.ash_pressure_plate": "Ash Pressure Plate",
+  "block.darkdeep.ash_slab": "Ash Slab",
+  "block.darkdeep.ash_stairs": "Ash Stairs",
+
+  "block.darkdeep.dreamwood_log": "Dreamwood Log",
+  "block.darkdeep.dreamwood": "Dreamwood",
+  "block.darkdeep.stripped_dreamwood_log": "Stripped Dreamwood Log",
+  "block.darkdeep.stripped_dreamwood": "Stripped Dreamwood",
+  "block.darkdeep.dreamwood_planks": "Dreamwood Planks",
+  "block.darkdeep.dreamwood_sapling": "Dreamwood Sapling",
+  "block.darkdeep.dreamwood_leaves": "Dreamwood Leaves",
+  "block.darkdeep.dreamwood_fence": "Dreamwood Fence",
+  "block.darkdeep.dreamwood_fence_gate": "Dreamwood Fence Gate",
+  "block.darkdeep.dreamwood_button": "Dreamwood Button",
+  "block.darkdeep.dreamwood_pressure_plate": "Dreamwood Pressure Plate",
+  "block.darkdeep.dreamwood_slab": "Dreamwood Slab",
+  "block.darkdeep.dreamwood_stairs": "Dreamwood Stairs",
 
   "itemGroup.darkdeep.the_cavern": "The Cavern"
 }

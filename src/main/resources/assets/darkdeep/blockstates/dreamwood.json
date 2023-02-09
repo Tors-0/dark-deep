@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "darkdeep:block/dreamwood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "darkdeep:block/dreamwood"
+    },
+    "axis=z": {
+      "model": "darkdeep:block/dreamwood",
+      "x": 90
+    }
+  }
+}

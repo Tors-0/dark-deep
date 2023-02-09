@@ -1,60 +1,11 @@
 {
-  "type": "darkdeep:dddim",
+  "type": "minecraft:the_end",
   "generator": {
     "type": "minecraft:noise",
     "settings": "minecraft:overworld",
     "biome_source": {
-      "type": "minecraft:multi_noise",
-      "biomes": [
-        {
-          "biome": "minecraft:deep_dark",
-          "parameters": {
-            "temperature": -1,
-            "humidity": -2,
-            "continentalness": 0,
-            "erosion": 1,
-            "weirdness": 2,
-            "depth": -2,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "minecraft:forest",
-          "parameters": {
-            "temperature": 0,
-            "humidity": 1,
-            "continentalness": 0,
-            "erosion": -1,
-            "weirdness": 0,
-            "depth": 2,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "minecraft:jungle",
-          "parameters": {
-            "temperature": 1,
-            "humidity": 2,
-            "continentalness": 0,
-            "erosion": -2,
-            "weirdness": 1,
-            "depth": 1,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "minecraft:plains",
-          "parameters": {
-            "temperature": 1,
-            "humidity": 0,
-            "continentalness": 0,
-            "erosion": 2,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
-          }
-        }
-      ]
+      "type": "minecraft:fixed",
+      "biome": "minecraft:deep_dark"
     }
   }
 }

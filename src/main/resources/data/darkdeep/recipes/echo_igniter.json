@@ -1,17 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "@ ",
-    " #"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:echo_shard"
-    },
-    "@": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:echo_shard"
     }
-  },
+  ],
   "result": {
     "item": "darkdeep:echo_igniter"
   }

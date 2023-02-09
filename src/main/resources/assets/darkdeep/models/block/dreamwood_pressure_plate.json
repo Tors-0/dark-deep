@@ -1,0 +1,6 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "texture": "darkdeep:block/dreamwood_planks"
+  }
+}

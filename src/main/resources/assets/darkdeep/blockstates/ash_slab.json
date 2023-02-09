@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "darkdeep:block/ash_slab"
+    },
+    "type=double": {
+      "model": "darkdeep:block/ash_planks"
+    },
+    "type=top": {
+      "model": "darkdeep:block/ash_slab_top"
+    }
+  }
+}

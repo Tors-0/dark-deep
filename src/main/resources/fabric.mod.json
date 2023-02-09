@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.rae.darkdeep.DarkDeep"
+    ],
+    "client":[
+      "net.rae.darkdeep.DarkDeepClient"
     ]
   },
 

@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": { "model": "darkdeep:block/dreamwood_pressure_plate" },
+    "powered=true": { "model": "darkdeep:block/dreamwood_pressure_plate_down" }
+  }
+}

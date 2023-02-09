@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "darkdeep:ash_planks"
+    }
+  },
+  "result": {
+    "count": 4,
+    "item": "darkdeep:ash_stairs"
+  }
+}

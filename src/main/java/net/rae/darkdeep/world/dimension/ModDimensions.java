@@ -1,6 +1,5 @@
 package net.rae.darkdeep.world.dimension;
 
-import net.kyrptonaught.customportalapi.CustomPortalApiRegistry;
 import net.kyrptonaught.customportalapi.api.CustomPortalBuilder;
 import net.minecraft.block.Blocks;
 import net.minecraft.util.Identifier;
