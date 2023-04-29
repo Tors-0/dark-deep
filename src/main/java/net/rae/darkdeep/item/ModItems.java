@@ -9,7 +9,7 @@ import net.rae.darkdeep.DarkDeep;
 public class ModItems {
 
     public static final Item ECHO_IGNITER = registerItem("echo_igniter",
-            new Item(new FabricItemSettings().group(ModItemGroup.THE_CAVERN).maxCount(1)));
+            new Item(new FabricItemSettings().group(ModItemGroup.THE_CAVERN).maxCount(1).maxDamage(1)));
 
     public static final Item DIAMOND_DUST = registerItem("diamond_dust",
             new Item(new FabricItemSettings().group(ModItemGroup.THE_CAVERN)));
